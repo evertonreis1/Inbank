@@ -1,7 +1,9 @@
-# Resumo: Desenvolvimento de Sistema de Agência Bancária em Java
+# Resumo: Aprendizado de Encapsulamento Através de Composição em Java
 
-Neste projeto, foi solicitado pelo professor Tacito a criação de um sistema simples de Agência Bancária em Java, com ênfase na aplicação dos conceitos de encapsulamento e composição. O objetivo é modelar o relacionamento entre a agência bancária e suas contas por meio desses princípios.
+Neste projeto, sob orientação do professor Tacito, o objetivo principal é a compreensão e aplicação dos conceitos de encapsulamento e composição por meio da criação de um sistema de Agência Bancária em Java.
 
-Foi desenvolvida a classe `ContaBancaria` para representar contas bancárias, contendo atributos privados para armazenar número da conta, nome do titular e saldo. A classe `AgenciaBancaria` foi criada para representar a agência, incluindo um número de agência e uma lista de contas bancárias associadas. A relação entre as contas e a agência foi estabelecida através de composição, onde a agência mantém uma lista de contas.
+O desenvolvimento contemplou a criação da classe `ContaBancaria` para representar contas bancárias. Essa classe possui atributos privados que encapsulam informações sensíveis como número da conta, nome do titular e saldo. A segunda classe, `AgenciaBancaria`, foi concebida para representar a agência em si, incorporando um número de agência e estabelecendo uma relação de composição com a lista de contas bancárias associadas.
 
-Para testar o sistema, foi criado um programa capaz de criar agências, contas bancárias e realizar operações como depósito e saque nas contas. Esse projeto busca oferecer uma compreensão prática dos conceitos de encapsulamento e composição, aplicados em um cenário realista de agência bancária.
+Através desse projeto, os participantes puderam aplicar os princípios de encapsulamento, ocultando detalhes internos das classes e promovendo a segurança dos dados. Além disso, a relação de composição entre a agência e suas contas incentivou o entendimento da estrutura hierárquica e a gestão de objetos complexos.
+
+O programa resultante permitiu não apenas a criação de agências e contas, mas também a realização de operações de depósito e saque, ilustrando de forma prática como encapsulamento e composição podem ser empregados para criar sistemas eficientes e de fácil manutenção.
